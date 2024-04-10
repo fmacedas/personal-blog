@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/fmacedas/personal-blog
 
 go 1.19
 
