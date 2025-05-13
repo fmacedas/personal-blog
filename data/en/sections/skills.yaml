@@ -47,7 +47,7 @@ skills:
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Write most of the programs as dockerized container."
   url: "https://www.docker.com/"
 
 - name: Windows
