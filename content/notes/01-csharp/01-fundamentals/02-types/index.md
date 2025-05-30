@@ -1,12 +1,12 @@
 ---
 title: Basic Types
-weight: 2
+weight: 102
 menu:
   notes:
     name: Basic Types
-    identifier: notes-csharp-basics-types
-    parent: notes-csharp-basics
-    weight: 2
+    identifier: notes-csharp-fundamentals-types
+    parent: notes-csharp-fundamentals
+    weight: 102
 ---
 
 <!-- Data types -->

@@ -1,12 +1,12 @@
 ---
 title: Data Formatting
-weight: 3
+weight: 107
 menu:
   notes:
     name: Data Formatting
-    identifier: notes-csharp-advanced-data-formatting
-    parent: notes-csharp-advanced
-    weight: 3
+    identifier: notes-csharp-fundamentals-data-formatting
+    parent: notes-csharp-fundamentals
+    weight: 107
 ---
 
 <!-- Composite Formatting -->
@@ -42,12 +42,20 @@ Console.WriteLine($"Measurement: {measurement:N4} units"); // Measurement: 123,4
 
 <!-- Formatting Percentage -->
 
-{{< note title="Formatting Numbers" >}}
+{{< note title="Formatting Percentage" >}}
 ```csharp
 decimal tax = .36785m;
 Console.WriteLine($"Tax rate: {tax:P2}"); // Tax rate: 36.79%
 ```
 {{< /note >}}
 
+<!-- Padding -->
 
-
+{{< note title="Padding" >}}
+```csharp
+string input = "Pad this";
+Console.WriteLine(input.PadLeft(12)); // " 	Pad this"
+Console.WriteLine(input.PadLeft(12, '*')); // "****Pad this"
+Console.WriteLine(input.PadRight(12, '*')); // "Pad this****"
+```
+{{< /note >}}

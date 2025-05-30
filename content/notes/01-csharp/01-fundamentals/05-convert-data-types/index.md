@@ -1,12 +1,12 @@
 ---
 title: Data Type Conversion
-weight: 1
+weight: 105
 menu:
   notes:
     name: Data Type Conversion
-    identifier: notes-csharp-advanced-data-type-conversion
-    parent: notes-csharp-advanced
-    weight: 1
+    identifier: notes-csharp-fundamentals-data-type-conversion
+    parent: notes-csharp-fundamentals
+    weight: 105
 ---
 
 <!-- Casting type to convert -->

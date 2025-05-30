@@ -1,12 +1,12 @@
 ---
 title: Introduction
-weight: 1
+weight: 101
 menu:
   notes:
     name: Introduction
-    identifier: notes-csharp-basics-intro
-    parent: notes-csharp-basics
-    weight: 1
+    identifier: notes-csharp-fundamentals-intro
+    parent: notes-csharp-fundamentals
+    weight: 101
 ---
 <!-- Getting Started -->
 {{< note title="Getting Started">}}

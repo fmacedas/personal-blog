@@ -1,12 +1,12 @@
 ---
 title: Flow Control
-weight: 4
+weight: 104
 menu:
   notes:
     name: Flow Control
-    identifier: notes-csharp-basics-flow-control
-    parent: notes-csharp-basics
-    weight: 4
+    identifier: notes-csharp-fundamentals-flow-control
+    parent: notes-csharp-fundamentals
+    weight: 104
 ---
 
 <!-- Condition -->
@@ -41,6 +41,19 @@ int discount = saleAmount > 1000 ? 100 : 50;
 Console.WriteLine($"Discount: {discount}");
 ```
 
+---
+
+**Scope**
+
+```csharp
+bool flag = true;
+if (flag)
+{
+  int value = 10;
+  Console.WriteLine($"Inside the code block: {value}"); // Prints value.
+}
+Console.WriteLine($"Outside the code block: {value}"); // Gives error because value is declared inside the if code block.
+```
 {{< /note >}}
 
 <!-- Switch Case -->

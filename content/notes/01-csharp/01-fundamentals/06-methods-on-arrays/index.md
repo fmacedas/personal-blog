@@ -1,12 +1,12 @@
 ---
 title: Methods on Arrays
-weight: 2
+weight: 106
 menu:
   notes:
     name: Methods on Arrays
-    identifier: notes-csharp-advanced-array-methods
-    parent: notes-csharp-advanced
-    weight: 2
+    identifier: notes-csharp-fundamentals-array-methods
+    parent: notes-csharp-fundamentals
+    weight: 106
 ---
 
 <!-- Sorting an array -->
